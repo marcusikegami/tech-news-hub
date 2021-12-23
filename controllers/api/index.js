@@ -6,6 +6,6 @@ const commentRoutes = require('./comment-routes');
 router.use('/comments', commentRoutes);
 router.use('/users', userRoutes);
 router.use('/posts', postRoutes);
-//this is al;kjasd;lfkj
+
 
 module.exports = router;

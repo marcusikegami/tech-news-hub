@@ -30,7 +30,7 @@ router.post('/', (req, res) => {
         .then(commentData => res.json(commentData))
         .catch(err => {
             console.log(err);
-            res.sttatus(400).json(err);
+            res.status(400).json(err);
         });
 
 });
